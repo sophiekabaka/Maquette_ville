@@ -1,0 +1,109 @@
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 55%;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+header{
+    background-image: url(/img/header.jpg);
+    height: 700px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.a_propos, .a_voir, .a_manger, .en_plus{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: justify;
+    padding: 5%;
+}
+.lake{
+    background-image: url(/img/image3.jpg);
+    height: 750px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.patio{
+    background-image: url(/img/image7.jpg);
+    height: 750px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-maecenas{
+    background-image: url(/img/image1.jpg);
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+.text-maecenas, .text-pulvinar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+.img-pulvinar{
+    background-image: url(/img/image2.jpg);
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+.img-round{
+    height: 200px;
+}
+.img-round div{
+    background-color: aqua;
+    height: 100%;
+    width: 20%;
+}
+.img-4{
+    background-image: url(/img/image4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-5{
+    background-image: url(/img/image5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-6{
+    background-image: url(/img/image6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.img-7{
+    background-image: url(/img/image8.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.img_square div img{
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+}
+footer{
+    background-color: rgb(48, 48, 92);
+    color: white;
+    height: 50px;
+    padding: 10px;
+}
